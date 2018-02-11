@@ -26,30 +26,41 @@ print(fruit[9])
 print(fruit[1:10])
 print(fruit[0:9])
 
-student1 {
+students = [
+    {
     'name': 'nichola',
-    'age': '20',
+    'age': 20,
     'nationality': 'irish', 
     'subjects': ['javascript', 'python', 'css', 'html']
-}
+},
 
-student2 {
+{
     'name': 'arne',
     'age': '20',
     'nationality': 'german', 
     'subjects': ['javascript', 'python', 'css', 'html']
-}
+},
 
-student3 {
+{
     'name': 'stephen',
     'age': '20',
     'nationality': 'irish', 
     'subjects': ['javascript', 'python', 'css', 'html']
-}
+},
 
-student4 {
+{
     'name': 'jordan',
     'age': '20',
     'nationality': 'irish', 
     'subjects': ['javascript', 'python', 'css', 'html']
+},
+]
+
+words = {
+    'big': "large, not tiny",
+    'small': 5,
+    'car': 3,
+    'student': 7
 }
+
+print(words['small'])
